@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_two"
+    android:weightSum="7">
+
+    <include layout="@layout/topbar_2"/>
+    
+    <EditText
+        android:id="@+id/a5_1_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_5_1"
+        android:gravity="center"
+        android:maxLength="11"
+        android:inputType="number"
+        android:focusableInTouchMode="true"
+        android:hint="搜索@请输入电话" />
+
+    <!--此处由ListView替换 Begin-->
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    
+  <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a5_1_search"
+        android:orientation="vertical"
+        android:layout_weight="6">
+
+        <include layout="@layout/activity_5_1_item"/>
+        <include layout="@layout/activity_5_1_item"/>
+        <include layout="@layout/activity_5_1_item"/>
+        
+    </LinearLayout> -->
+    
+    <!--此处由ListView替换 End--> 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3d4955"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:id="@+id/sellers_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一级下线直销员："
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/sellers_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3人"
+                    android:textColor="#ffd305" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="佣金总额："
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/sellers_count_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥300"
+                    android:textColor="#ffd305" />
+            </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_two" >
+    
+    <include layout="@layout/topbar_2"/>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:background="#fff">
+
+        <com.tchappy.photo.view.TabTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tabtxtview="http://schemas.android.com/apk/res/com.tchappy.pwy"
+            tabtxtview:txt_value="全部"
+            tabtxtview:img_visible="true"
+            android:id="@+id/query_money_his_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:textColor="#000" />
+
+        <com.tchappy.photo.view.TabTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tabtxtview="http://schemas.android.com/apk/res/com.tchappy.pwy"
+            tabtxtview:txt_value="办理佣金"
+            tabtxtview:img_visible="false"
+            android:id="@+id/query_money_his_blyj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#000" />
+
+        <com.tchappy.photo.view.TabTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tabtxtview="http://schemas.android.com/apk/res/com.tchappy.pwy"
+            tabtxtview:txt_value="提成佣金"
+            tabtxtview:img_visible="false"
+            android:id="@+id/query_money_his_tcyj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#000" />
+        
+        <com.tchappy.photo.view.TabTextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tabtxtview="http://schemas.android.com/apk/res/com.tchappy.pwy"
+            tabtxtview:txt_value="奖励佣金"
+            tabtxtview:img_visible="false"
+            android:id="@+id/query_money_his_jlyj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#000" />
+
+    </LinearLayout>
+    
+   <!-- <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="3dip"
+    android:background="@color/white"
+     >
+
+        <ImageView
+            android:id="@+id/iv_bottom_line"
+            android:layout_width="60dip"
+            android:layout_height="2dip"
+            android:layout_marginLeft="10dip"
+            android:scaleType="matrix"
+            android:src="@color/red" />
+    </LinearLayout> --> 
+    
+     <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>

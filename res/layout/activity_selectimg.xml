@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3d4955" >
+        
+        <ImageView
+            android:id="@+id/main_title_img1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="手机串号查询:*#06#"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button 
+            android:id="@+id/btn_send"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="发送"
+            android:background="@color/green"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:textSize="8sp" />
+
+    <GridView
+        android:id="@+id/noScrollgridview"
+        android:layout_width="290dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.02"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="3px"
+        android:numColumns="auto_fit"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp" >
+
+    </GridView>
+    
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:text="用户扫描下方二维码可下载岁岁屏安APP"
+         android:textSize="16sp"
+         android:layout_gravity="center" />
+    
+    <ImageView
+        android:id="@+id/qr_code"
+        android:layout_width="163dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:src="@drawable/qr_code_sspa" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.17"
+        android:background="@drawable/bg_edittext"
+        android:orientation="vertical"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/_regist_name"
+                android:textColor="@color/grey" 
+                android:textSize="16dp"/>
+
+            <com.tchappy.photo.activity.MyEditText
+                android:id="@+id/regist_name"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="@string/regist_text_shuruname"
+                android:textColorHint="#C8C8C8"
+                android:lines="1"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.1"
+            android:background="#f0f0f0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/_regist_phone"
+                android:textColor="@color/grey"
+                android:textSize="16dp" />
+
+            <com.tchappy.photo.activity.MyEditText
+                android:id="@+id/regist_phone"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="@string/regist_text_shuruphone"
+                android:textColorHint="#C8C8C8"
+                android:lines="1"
+                android:maxLength="11"
+                android:numeric="integer" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <include layout="@layout/bottom_menu"/>
+</LinearLayout>

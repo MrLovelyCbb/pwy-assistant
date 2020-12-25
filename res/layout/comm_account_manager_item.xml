@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+         <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:weightSum="5"
+        android:descendantFocusability="blocksDescendants">
+        <ImageView 
+            android:src="@drawable/ic_alipay_plugin_enabled"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:scaleType="matrix"/>
+        <TextView 
+            android:id="@+id/comm_alipay_default"
+            android:layout_width="0dp"
+            android:layout_weight="3.8"
+            android:paddingLeft="15dp"
+            android:layout_height="fill_parent"
+            android:gravity="left|center_vertical"
+            android:text="cuibo_520@hotmail.com"
+            android:textColor="#000"
+            android:textSize="12sp"/>
+        <ImageButton 
+            android:id="@+id/comm_alipay_btn1"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="18dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/change3"/>
+        <ImageButton 
+            android:id="@+id/comm_alipay_btn2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:background="@drawable/lajitong"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_two"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <include layout="@layout/topbar_2"/>
+    
+    <TextView
+        android:id="@+id/todays_data_num"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:hint="查询结果(4笔)"
+        android:layout_weight="0.4" />
+
+   <!--  <LinearLayout
+        android:id="@+id/a5_2_1_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/a5_2_1_tv"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="全部" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="参保佣金" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="参保返现" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="维修佣金" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:text="维修返现" />
+
+    </LinearLayout>  
+    
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="2dip"
+            android:background="@color/white"
+             >
+
+            <ImageView
+                android:id="@+id/iv_bottom_line"
+                android:layout_width="30dip"
+                android:layout_height="2dip"
+                android:layout_marginLeft="18dip"
+                android:scaleType="matrix"
+                android:src="@color/red" />
+        </LinearLayout>
+        -->
+    
+    <!-- <android.support.v4.view.ViewPager
+        android:id="@+id/myviewpager"
+        android:layout_width="fill_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp" /> -->
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.6"
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <!--此处由ListView替换 Begin-->
+    <!--<ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a5_2_1_search"></ListView>-->
+     <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_5_2_1_item"/>
+		<include layout="@layout/activity_5_2_1_item"/>
+		<include layout="@layout/activity_5_2_1_item2"/>
+		<include layout="@layout/activity_5_2_1_item2"/>
+        
+    </LinearLayout> -->
+    <!--此处由ListView替换 End-->
+    
+    <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#3d4955"
+        android:gravity="center"
+        android:text="今日佣金总额：15元"
+        android:textColor="#ffffff" /> -->
+
+</LinearLayout>

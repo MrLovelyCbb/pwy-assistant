@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f0f0f0"
+    android:weightSum="10">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#3d4955" 
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:gravity="center"
+		android:text="@string/download_sspa"
+		android:textColor="@color/black"
+		android:textSize="20sp" />
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/qr_code_sspa"/>
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.4"
+		android:gravity="center"
+		android:text="@string/download_browse"
+		android:textColor="@color/black"
+		android:textSize="12sp" />
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.4"
+		android:gravity="center"
+		android:text="@string/download_tips_weixin"
+		android:textColor="@color/black"
+		android:textSize="12sp" />
+   	
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.3"
+		android:gravity="center"
+		android:textColor="@color/black"
+		android:textSize="20sp" />
+   	
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:gravity="center"
+		android:text="@string/download_sspazs"
+		android:textColor="@color/black"
+		android:textSize="20sp" />
+   	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/qr_code_sspazs"/>
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.4"
+		android:gravity="center"
+		android:text="@string/download_browse"
+		android:textColor="@color/black"
+		android:textSize="12sp" />
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.4"
+		android:gravity="center"
+		android:text="@string/download_tips_weixin"
+		android:textColor="@color/black"
+		android:textSize="12sp" />
+   	
+   	<Button
+        android:id="@+id/btn_qr_return"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="@drawable/btn_show2"
+        android:gravity="center"
+        android:text="@string/pay_item4_str"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+        
+    
+    
+
+</LinearLayout>

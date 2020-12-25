@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+   <TextView 
+       android:id="@+id/my_account_view"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="left|center_vertical"
+       android:paddingLeft="28dp"
+       android:textSize="18sp"
+       android:textColor="@color/black"
+       android:text="@string/login_item11_str"
+       />
+   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+   <TextView 
+       android:id="@+id/modify_pwd_view"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="left|center_vertical"
+       android:paddingLeft="28dp"
+       android:textSize="18sp"
+       android:textColor="@color/black"
+       android:text="@string/password_title_str"
+       />
+   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+    
+		    <LinearLayout 
+		        android:id="@+id/comm_account_view"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:orientation="horizontal"
+		        android:layout_weight="1"
+		        android:layout_gravity="center_vertical">
+				   <TextView 
+				       android:layout_width="0dp"
+				       android:layout_weight="1"
+				       android:layout_height="fill_parent"
+				       android:gravity="left|center_vertical"
+				       android:paddingLeft="28dp"
+				       android:textSize="18sp"
+				       android:textColor="@color/black"
+				       android:text="@string/login_title_manager"
+				       />
+				    <TextView 
+				       android:id="@+id/comm_account_notice"
+				       android:layout_width="0dp"
+				       android:layout_height="fill_parent"
+					   android:layout_weight="1"
+					   android:gravity="center_vertical"
+				       android:paddingLeft="28dp"
+				       android:textSize="12sp"
+				       android:textColor="@color/black"
+				       android:text="您还未添加收款账号"
+				       />
+		   </LinearLayout>
+		   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+ 
+   <TextView 
+       android:id="@+id/logout_comm"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="left|center_vertical"
+       android:paddingLeft="28dp"
+       android:textSize="18sp"
+       android:textColor="@color/black"
+       android:text="@string/logout_title_str"
+       />
+   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+    
+    <TextView 
+        android:id="@+id/exit_comm"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="left|center_vertical"
+       android:paddingLeft="28dp"
+       android:textSize="18sp"
+       android:textColor="@color/black"
+       android:text="@string/exit_title_str"
+       />
+   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+    
+    <TextView 
+        android:id="@+id/abount_view"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:gravity="left|center_vertical"
+       android:paddingLeft="28dp"
+       android:textSize="18sp"
+       android:textColor="@color/black"
+       android:text="@string/about_title_str"
+       />
+   
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.03"
+            android:background="#f0f0f0" />
+    
+</LinearLayout>

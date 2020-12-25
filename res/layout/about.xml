@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#222222"
+     >
+    
+    <include layout="@layout/topbar_2"/>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="屏无忧 Android版"
+        style="@style/lol_style_about_textblue"
+        android:layout_marginTop="25dip"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textwhile"
+        android:lineSpacingExtra="10dip"
+        android:layout_margin="10dip"
+        android:text="  “屏无忧”是深圳市中屏互联信息科技有限公司为所有智能手机用户提供的手机屏幕维保服务。用户可以选择一年服务种类和半年服务种类，根据对应的服务种类 用户可享受手机屏幕免费更换一次的服务。“屏无忧”为所有手机客户带来最安全、快捷、高效的屏幕维保服务. "/>
+    
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textblue"
+        android:background="#000000"
+        android:text="屏无忧官网"
+        android:layout_marginTop="15dip"
+        
+        />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textwhile"
+        android:text="www.suipb.com"
+        android:layout_marginTop="10dip"/>
+    
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textblue"
+        android:background="#000000"
+        android:text="免费客服电话"
+        android:layout_marginTop="15dip"
+        
+        />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textwhile"
+        android:text="4000-820-136"
+        android:layout_marginTop="10dip"/>
+    
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textblue"
+        android:text="版权所有"
+        android:background="#000000"
+        android:layout_marginTop="15dip"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        style="@style/lol_style_about_textwhile"
+        android:text="江西商联通科技有限公司"
+        android:layout_marginTop="10dip"/>
+</LinearLayout>

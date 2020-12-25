@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_two"
+    android:weightSum="5">
+
+    <include layout="@layout/topbar_2"/>
+    
+    <TextView
+        android:id="@+id/query_dtime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:paddingLeft="10dp"
+        android:text="2015年04月04日"
+        android:textColor="@color/grey" />
+
+    <include layout="@layout/activity_5_2_subview"/>
+
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.7"/>
+     <!--  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="3.7"
+        android:background="@drawable/bg_edittext" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+                <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="15dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp" 
+		        android:background="#fff"
+		        android:textColor="@color/grey"
+		        android:inputType="textMultiLine"
+		        android:padding="10dp"
+		        android:text="温馨提示：\r\n\n
+		1.佣金信息在本系统保存期限为2个自然月。\r\n\n
+		2.每个自然月月底，当月佣金统一将转入您设置的收款佣金账号内。如您暂未设置收款账号，当月佣金将累计到次月月底发放。\r\n\n
+		3.佣金提现账号只限于支付宝账号。\r\n\n
+		4.每月办理参保10笔参保业务(包括10笔)每笔可收获5员奖励佣金。" />
+        </ScrollView>
+    </LinearLayout> -->  
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_show"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:text="返回" />
+    </LinearLayout>
+
+</LinearLayout>

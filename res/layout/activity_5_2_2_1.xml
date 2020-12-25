@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_two"
+    android:orientation="vertical">
+
+     <include layout="@layout/topbar_2"/>
+    
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:weightSum="3"
+         android:background="#eeeeee">
+    <TextView
+        android:id="@+id/a5_2_1_time"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:hint="2015-03-15至2015-03-18" />
+    <TextView
+        android:id="@+id/a5_2_1_datanum"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:hint="查询结果(3笔)" />
+</LinearLayout>
+    <!--此处由ListView替换 Begin-->
+    <!--<ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a5_2_1_search"></ListView>-->
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <include layout="@layout/activity_5_2_1_item"/>
+        
+        <include layout="@layout/activity_5_2_1_item"/>
+        
+        <include layout="@layout/activity_5_2_1_item"/>
+    </LinearLayout> -->
+    <!--此处由ListView替换 End-->
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+    android:id="@+id/mylistview"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>

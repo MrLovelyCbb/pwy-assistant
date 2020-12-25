@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">屏无忧营销助手</string>
+	<string name="app_name_str">屏无忧</string>
+    <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string> 
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="regist_text_shuruphone">请输入手机号码</string>
+    <string name="regist_text_shuruname">请输入姓名</string>
+    <string name="_regist_phone">手机号码</string>
+    <string name="_regist_name">用户姓名</string>
+    <string name="post_ERROR">网络连接出错，请重试</string>
+    
+    <string name="login_item1_str">快速注册</string>
+    <string name="login_item2_str">您的信息（必填）</string>
+    <string name="login_item3_str">介绍人信息（选填）</string>
+    <string name="login_item4_str">账号</string>
+    <string name="login_item5_str">验证码</string>
+    <string name="login_item6_str">真实姓名</string>
+    <string name="login_item7_str">密码</string>
+    <string name="login_item8_str">手机号</string>
+    <string name="login_item9_str">注册</string>
+    <string name="login_item10_str">找回密码</string>
+    <string name="login_item11_str">账号查看</string>
+    <string name="login_item12_str">可用收款账号</string>
+    <string name="login_item13_str">登录</string>
+    <string name="login_item14_str">新密码</string>
+    <string name="login_item15_str">确认密码</string>
+    <string name="login_item16_str">手机串号查询:*#06#</string>
+    <string name="login_item17_str">参保</string>
+    <string name="login_item18_str">获取验证码</string>
+    <string name="login_item19_str">原密码</string>
+    <string name="login_item20_str">找回</string>
+    <string name="about_title_str">关于屏无忧</string>
+    <string name="exit_title_str">退出</string>
+    <string name="logout_title_str">注销</string>
+    <string name="password_title_str">密码修改</string>
+    <string name="login_title_manager">佣金账号管理</string>
+    <string name="login_title_str">账号登录</string>
+    
+    <string name="login_itemtips_str">您的电话号码</string>
+    <string name="login_itemtips1_str">填写验证码</string>
+    <string name="login_itemtips2_str">有助快速结算佣金</string>
+    <string name="login_itemtips3_str">请输入密码</string>
+    <string name="login_itemtips4_str">介绍人手机号</string>
+    <string name="login_itemtips5_str">输入验证码</string>
+    <string name="login_itemtips6_str">再次输入密码</string>
+    <string name="login_itemtips7_str">点击“注册”，表示同意</string>
+    <string name="login_itemtips8_str">《屏无忧用户协议》</string>
+    <string name="login_itemtips9_str">填写你的介绍人手机号，该手机必须属于已注册屏无忧助手的直销员，且号码一经填写无法更改，请确认后填写。</string>
+    <string name="login_itemtips10_str">输入用户手机号码</string>
+    <string name="account_manager_tips">最多可添加3个收款账号</string>
+    
+    <string name="claim_edit_miaosu">(必填)请输入故障描述\n\n\n温馨提示：\n1、请确定您修屏的手机串码与参保时登记的手机串码一致；\n2、手机已拆过,不在维保范围,请保持手机为原装；\n3、手机主板损坏、不能正常开机，不在维保范围。</string>
+    
+    <string name="menu_btn1_str">拍照参保</string>
+    <string name="menu_btn2_str">报修</string>
+    <string name="menu_btn3_str">用户查询</string>
+    <string name="menu_btn4_str">我</string>
+    
+    <string name="my_title_str">我的助手</string>
+    
+    <string name="pay_title_str">支付方式</string>
+    <string name="pay_item1_str">服务项目：</string>
+    <string name="pay_item2_str">服务价格：</string>
+    <string name="pay_item3_str">选择参保方式</string>
+    <string name="pay_item4_str">返回</string>
+    <string name="pay_item5_str">确认</string>
+    
+    
+    <string name="repair_title1_str">查询结果</string>
+    <string name="repair_item1_str">手机串号</string>
+    <string name="repair_item2_str">手机全景</string>
+    <string name="repair_item3_str">串号特写</string>
+    <string name="repair_item4_str">确定报修</string>
+    
+
+    
+    <string name="repair_title2_str">查询参保用户</string>
+    <string name="repair_item5_str">您查询的用户未参保屏无忧服务 是否询价报修</string>
+    
+    <string name="repair_item6_str">已参保</string>
+    <string name="repair_item7_str">未参保</string>
+    <string name="repair_item8_str">查询</string>
+    
+    <string name="repair_item9_str">报修询价</string>
+    <string name="repair_item10_str">您的报修询价已发送，专业人员正在为您报价，请耐心等待...</string>
+    <string name="repair_item11_str">返回等待</string>
+    
+    <string name="repair_title3_str">报修订单</string>
+    <string name="repair_item12_str">全部</string>
+    <string name="repair_item13_str">待报价</string>
+    <string name="repair_item14_str">待付款</string>
+    <string name="repair_item15_str">未参保付费报修 ></string>
+    <string name="repair_item16_str">渠道价</string>
+    <string name="repair_item17_str">取消报修</string>
+    <string name="repair_item18_str">付款</string>
+    <string name="repair_item19_str">自动取消报修</string>
+    
+    <string name="repair_item20_str">手机品牌</string>
+    <string name="repair_item21_str">手机型号</string>
+    <string name="repair_item22_str">手机正面</string>
+    <string name="repair_item23_str">手机侧面</string>
+    <string name="repair_item24_str">发送报修</string>
+    
+    <string name="repair_itemtips_str">输入手机品牌</string>
+    <string name="repair_itemtips2_str">输入手机型号</string>
+
+    <string name="query_menu_str">查询直销员</string>
+    <string name="query_menu1_str">查询已办理业务</string>
+    <string name="query_menu2_str">查询已结算佣金</string>
+    <string name="query_menu3_str">查询报修历史</string>
+    
+    <string name="query_menutips_str">只能查询两级下线直销员，区域总代除外</string>
+    <string name="query_menutips1_str">只能查询两级下线佣金，区域总代除外</string>
+    <string name="query_menutips2_str">按月查看佣金结算信息</string>
+    <string name="query_menutips3_str">查询3个月内已结束报修信息</string>
+    
+    <string name="query_item1_str">一级下线直销员</string>
+    <string name="query_item2_str">二级下线直销员：</string>
+    <string name="query_item3_str">佣金总额：</string>
+    <string name="query_item4_str">查看下级</string>
+    
+    <string name="query_reward_str">查询奖励佣金</string>
+    
+    <string name="query_title_str">查询今日佣金</string>
+    <string name="query_item5_str">换屏成功</string>
+    <string name="query_item6_str">换屏失败</string>
+    
+    <string name="query_item7_str">全部</string>
+     <string name="query_item8_str">参保佣金</string>
+      <string name="query_item9_str">参保返现</string>
+       <string name="query_item10_str">维修佣金</string>
+        <string name="query_item11_str">维修返现</string>
+         <string name="query_item12_str">起始日期</string>
+          <string name="query_item13_str">结束日期</string>
+          
+          <string name="query_item14_str">开始年月</string>
+          <string name="query_item15_str">结束年月</string>
+          <string name="query_item16_str">佣金最低金额</string>
+          <string name="query_item17_str">输入金额需为5的倍数</string>
+          <string name="query_item18_str">佣金最高金额</string>
+          
+          <string name="query_item19_str">当月办理办理人数未满10人</string>
+          <string name="query_item20_str">奖励佣金</string>
+          <string name="query_item21_str">今日佣金总额：</string>
+          <string name="query_item22_str">历史佣金总额：</string>
+    	  <string name="query_item23_str">奖励佣金总额：</string>
+    	  <string name="query_item24_str">今日办理业务</string>
+    	  <string name="query_item25_str">历史办理业务</string>
+    	  <string name="query_item26_str">奖励佣金</string>
+    	  <string name="query_item27_str">查询历史佣金</string>
+    	  <string name="query_item28_str">必填</string>
+    	  
+   	<string name="paylist_yinlian">支持储蓄卡信用卡，无需开通网银</string>
+    <string name="paylist_ali">推荐有支付宝账号的用户使用</string>
+    <string name="paylist_card">官方发行的卡密支付</string>
+    <string name="pay_edit_shuru">请输入充值卡密码</string>
+    <string name="ali_Ensure">"确定"</string>
+    <string name="ali_Cancel">"取消"</string>
+    <string name="title_string_one">岁岁屏安</string>
+    <string name="title_string_two">中国手机修屏第一品牌</string>
+    <string name="web_btn_ok">我同意</string>
+    
+    <string name="download_sspa">岁岁屏安</string>
+    <string name="download_sspazs">岁岁屏安助手</string>
+    <string name="download_browse">浏览器扫描上方二维码下载</string>
+    <string name="download_tips_weixin">微信扫描无法下载</string>
+    <string name="login_text_xieyi">我已阅读《岁岁屏安用户协议》</string>
+    
+    <string name="other_item_str">请务必正确填写</string>
+    <string name="other_item1_str">只支持支付宝账号</string>
+    <string name="other_item2_str">收款人：</string>
+    <string name="other_item3_str">收款账号：</string>
+    <string name="other_item4_str">添加</string>
+    
+    <string name="ali_confirm_install_hint">"安装提示"</string>
+    <string name="ali_confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+    
+    <string name="list_title">系统公告</string>
+    	  
+</resources>

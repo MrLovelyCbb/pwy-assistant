@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragment_one"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.tchappy.photo.fragment.OneFragment" />
+
+    <fragment
+        android:id="@+id/fragment_two"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.tchappy.photo.fragment.TwoFragment" />
+    
+    <fragment
+        android:id="@+id/fragment_three"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.tchappy.photo.fragment.ThreeFragment" />
+
+    <fragment
+        android:id="@+id/fragment_four"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.tchappy.photo.fragment.FourFragment" />
+    
+
+    <com.tchappy.photo.view.FragmentIndicator
+        android:id="@+id/indicator"
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

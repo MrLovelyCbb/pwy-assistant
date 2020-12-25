@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_two" >
+    
+    <include layout="@layout/topbar_2"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+	    <TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="0.8"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="20dp"
+	        android:textColor="@color/black"
+	        android:text="@string/login_item8_str"/>
+	    <TextView 
+	        android:id="@+id/account_query_txt"
+	        android:layout_width="0dp"
+	        android:layout_weight="1.3"
+	        android:layout_height="wrap_content"
+	        android:textColor="#b6b6b6"
+	        android:textSize="20sp"
+	        android:text="18979090123"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+	    <TextView 
+	        android:layout_width="0dp"
+	        android:layout_weight="0.8"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical"
+	        android:layout_marginLeft="20dp"
+	        android:textColor="@color/black"
+	        android:text="@string/login_itemtips4_str"/>
+	    <EditText 
+	        android:id="@+id/invate_number_edit"
+	        android:layout_width="0dp"
+	        android:layout_weight="1.2"
+	        android:layout_height="wrap_content"
+	        android:textColor="#b6b6b6"
+	        android:hint="暂未添加号码"
+	        android:maxLines="1"
+	        android:maxLength="11"
+	        android:inputType="number"/>
+	    <Button 
+	        android:id="@+id/btn_edit_invate"
+	        android:layout_weight="0.2"
+	        android:layout_width="0dp"
+	        android:layout_height="20dp"
+	        android:layout_marginRight="8dp"
+	        android:background="@drawable/bianji"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tchappy.pwy"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon_transparent"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:name="com.tchappy.photo.thread.SspanApplication">
+        <activity
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="singleTask" 
+            android:screenOrientation="portrait"
+            android:name="com.tchappy.photo.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 登陆界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <!-- 找回密码界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.FindPwdActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <!-- 注册界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.RegisterActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <!-- 关于界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.AboutActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <!-- 账号查看 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.AccountViewActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+
+        <!-- 修改密码 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.ModifyPwdActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <!-- 佣金管理 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.CommAccountManagerActivity"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <!-- 佣金添加账号 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.AddAccountManagerActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 照相界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.CameraActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 今日佣金 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.TodayCommMoneyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 历史佣金 -->
+        <activity 
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:name="com.tchappy.photo.activity.HistoryCommMoneyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 历史佣金 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.RewardCommMoneyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询佣金 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.QueryCommissionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询佣金结算历史 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.QueryMoneyHistoryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询佣金结算历史结果 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.QueryMoneyHistoryResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询报修历史 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.QueryRepairHistoryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询报修历史结果 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.QueryRepairHistoryResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询报修历史结果 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.HistoryMoneyResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 查询直销员 -->
+        <activity 
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            android:name="com.tchappy.photo.activity.QuerySellersActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 支付界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.PayViewActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 报修查询结果 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.RepairQueryResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 报修订单界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.RepairOrderListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- 报修发送界面 -->
+        <activity 
+            android:name="com.tchappy.photo.activity.RepairReportActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <!-- Notice -->
+        <activity android:name="com.tchappy.photo.activity.ShowQRCodeAct"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <activity
+            android:name="com.tchappy.photo.activity.ImageGridActivity" android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tchappy.photo.activity.TestPicActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tchappy.photo.activity.PhotoActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.tchappy.photo.activity.AlbumActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tchappy.photo.activity.ImageFile" >
+        </activity>
+        <activity
+            android:name="com.tchappy.photo.activity.ShowAllPhoto" >
+        </activity>
+        <activity
+            android:name="com.tchappy.photo.activity.GalleryActivity">
+        </activity>
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="04sr0gcR0cg8PoMBLkjOLNRX" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+        
+    </application>
+
+</manifest>

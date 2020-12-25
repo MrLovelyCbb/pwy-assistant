@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal">
+	    <FrameLayout 
+	        android:layout_width="fill_parent"
+	    android:layout_height="60dp">
+	     <com.tchappy.photo.view.SegmentedGroup
+	        xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+	        android:id="@+id/segmented_topbar"
+	        android:layout_width="fill_parent"
+	        android:layout_height="60dp"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+	        android:background="@color/black"
+	        android:paddingRight="10dp">
+	        
+	        <RadioButton
+	                android:id="@+id/topbar_1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/repair_item6_str"
+	                style="@style/RadioButton"
+	                android:checked="true" />
+	
+	            <RadioButton
+	                android:id="@+id/topbar_2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/repair_item7_str"
+	                style="@style/RadioButton" />
+	    </com.tchappy.photo.view.SegmentedGroup>
+
+		    <Button 
+		        android:id="@+id/topbar_corner_btn"
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:layout_margin="10dp"
+	        	android:layout_gravity="right|center_vertical"
+		        android:background="@drawable/xiaoxi"
+		        />
+		    
+		    <TextView 
+		        android:id="@+id/topbar_corner_num"
+		        android:layout_width="wrap_content"
+		        android:minWidth="15dp"
+		        android:layout_height="wrap_content"
+		        android:text="99"
+		        android:layout_margin="8dp"
+		        android:layout_gravity="right|top"
+		        android:gravity="center"
+		        android:textSize="12sp"
+		        android:textColor="@color/white"
+		        android:textStyle="bold"
+		        android:background="@drawable/repair_corners_bg"/>
+	    </FrameLayout>
+</LinearLayout>
+	     <FrameLayout 
+	         android:id="@+id/mycontent"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:layout_weight="1">
+	         
+	         
+	     </FrameLayout>
+	     
+	     
+    <TextView
+        android:id="@+id/frame_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_two"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/topbar_2"/>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_edittext"
+        android:orientation="vertical"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/_regist_name"
+                android:textColor="@color/grey" 
+                android:textSize="16dp"/>
+
+            <com.tchappy.photo.activity.MyEditText
+                android:id="@+id/repair_result_name"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="@string/regist_text_shuruname"
+                android:textColorHint="#C8C8C8"
+                android:lines="1"
+                android:maxLength="5" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#f0f0f0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/_regist_phone"
+                android:textColor="@color/grey"
+                android:textSize="16dp" />
+
+            <com.tchappy.photo.activity.MyEditText
+                android:id="@+id/repair_result_phone"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="@string/regist_text_shuruphone"
+                android:textColorHint="#C8C8C8"
+                android:lines="1"
+                android:maxLength="11"
+                android:numeric="integer" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#f0f0f0" />
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/repair_item1_str"
+                android:textColor="@color/grey"
+                android:textSize="16dp" />
+
+            <com.tchappy.photo.activity.MyEditText
+                android:id="@+id/repair_result_imei"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="7"
+                android:background="@null"
+                android:hint="@string/login_item16_str"
+                android:textColorHint="#C8C8C8"
+                android:lines="1"
+                android:maxLength="25"
+                android:textSize="12sp"
+                android:numeric="integer" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp" >
+
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            >
+	        <ImageView
+	            android:src="@drawable/camera_show"
+	            android:id="@+id/repair_result_img1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="0.5"
+	            />
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_below="@+id/camera_zhengm"
+	            android:layout_marginTop="6dp"
+	            android:gravity="center"
+	            android:text="@string/repair_item2_str"/>
+		</LinearLayout>
+		
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            >
+	        <ImageView
+	            android:src="@drawable/camera_show"
+	            android:id="@+id/repair_result_img2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="0.5"
+	            />
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_marginTop="6dp"
+	            android:gravity="center"
+	            android:text="@string/repair_item3_str"/>
+		</LinearLayout>
+    </LinearLayout>
+    
+		<Button 
+		    android:id="@+id/btn_report_repair"
+		        android:layout_width="180dp"
+		        android:layout_height="38dp"
+		        android:layout_marginTop="30dp"
+		        android:layout_gravity="center"
+		        android:text="@string/repair_item4_str"
+		        android:textColor="@color/white"
+		        android:background="@drawable/btn_show"/>
+    
+
+</LinearLayout>

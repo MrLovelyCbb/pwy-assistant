@@ -8,6 +8,6 @@
 
 Android源码
 
-![支付宝-赞助作者](https://images.gitee.com/uploads/images/2020/1225/110334_483b7d64_376457.png "屏幕截图.png")
+![微信赞助作者](https://images.gitee.com/uploads/images/2020/1225/110334_483b7d64_376457.png "屏幕截图.png")
 
-![微信赞助作者](https://images.gitee.com/uploads/images/2020/1225/110342_934d4adf_376457.png "屏幕截图.png")
+![支付宝-赞助作者](https://images.gitee.com/uploads/images/2020/1225/110342_934d4adf_376457.png "屏幕截图.png")
